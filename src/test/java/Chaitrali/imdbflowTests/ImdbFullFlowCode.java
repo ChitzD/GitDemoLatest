@@ -22,6 +22,8 @@ public class ImdbFullFlowCode extends BaseTest {
 			sgnPage.signInProcess(input.get("email"));
 			Thread.sleep(8000);
 			sgnPage.getErrorMessage();
+			System.out.println("changed method");
+			System.out.println("changed method1");
 			// sgnPage.getErrorMessage();
 			// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 			// wait.until((ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".dEOOab.RxsGPe")))));

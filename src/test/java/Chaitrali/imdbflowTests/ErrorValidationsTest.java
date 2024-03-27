@@ -21,6 +21,10 @@ public class ErrorValidationsTest extends BaseTest {
 		sgnPage.signInProcess(email);
 		Assert.assertEquals(sgnPage.getErrorMessage2(), "Couldn’t find your Google Account");
 		System.out.println("changed method");
+		System.out.println("changed method1");
+		System.out.println("changed method2");
+		System.out.println("changed method3");
+		System.out.println("changed method4");
 	}
 
 	@Test(dependsOnMethods = { "ImdbFullFlowErrorValidation" })
