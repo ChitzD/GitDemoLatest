@@ -27,6 +27,7 @@ public class ImdbFullFlowCode extends BaseTest {
 			System.out.println("changed method arch");
 			System.out.println("changed archit");
 			System.out.println("changed architect");
+			System.out.println("changed architect new changes");
 			// sgnPage.getErrorMessage();
 			// WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 			// wait.until((ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".dEOOab.RxsGPe")))));
